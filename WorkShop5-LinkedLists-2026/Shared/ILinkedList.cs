@@ -2,21 +2,21 @@
 
 public interface ILinkedList<T>
 {
-    bool Contains(T data);
+    void Add(T item);
 
-    void InsertAtBeginning(T data);
+    void ShowForward();
 
-    void InsertAtEnding(T data);
+    void ShowBackward();
 
-    void InsertOrdered(T data);
+    void SortDescending();
 
-    void Remove(T data);
+    void ShowMode();
 
-    void RemoveAll(T data);
+    void ShowChart();
 
-    void Reverse();
+    bool Exists(T item);
 
-    void Sort();
+    void DeleteOne(T item);
 
-    string ToString();
+    void DeleteAll(T item);
 }
