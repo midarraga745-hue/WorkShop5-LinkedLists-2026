@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DoubleList/DoubleList.csproj" />
+  <Project Path="Shared/Shared.csproj" />
+  <Project Path="WorkShop5.Console/WorkShop5.Console.csproj" />
+</Solution>
